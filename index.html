@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="public/stylesheets/style.css">
   <title>Acrylic Painting Gallery</title>
 </head>
 <body>
   <header class="main-header">
-    <h1><span>Acrylic Painting</span>Gallery</h1>
+    <h1><span>Acrylic Painting</span> Gallery</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
   </header>
 
   <main class="container">
     <section class="card">
-      <img src="" alt="">
+      <img src="https://i.ibb.co/VvC0vpN/paint-1.png" alt="">
       <div>
         <h3>Acrylic Painting One</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio laboriosam vitae exercitationem quasi rem laudantium itaque amet recusandae, molestiae, explicabo ab. Culpa, delectus ipsam excepturi odio soluta ex hic!</p>
@@ -23,8 +24,8 @@
       </div>
     </section>
 
-    <section class="card">
-      <img src="" alt="">
+    <section class="card" data-aos="fade-left">
+      <img src="https://i.ibb.co/3NHjDcW/paint-2.png" alt="">
       <div>
         <h3>Acrylic Painting Two</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio laboriosam vitae exercitationem quasi rem laudantium itaque amet recusandae, molestiae, explicabo ab. Culpa, delectus ipsam excepturi odio soluta ex hic!</p>
@@ -32,8 +33,8 @@
       </div>
     </section>
 
-    <section class="card">
-      <img src="" alt="">
+    <section class="card" data-aos="fade-right">
+      <img src="https://i.ibb.co/0VywMkW/paint-3.png" alt="">
       <div>
         <h3>Acrylic Painting Three</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio laboriosam vitae exercitationem quasi rem laudantium itaque amet recusandae, molestiae, explicabo ab. Culpa, delectus ipsam excepturi odio soluta ex hic!</p>
@@ -41,8 +42,8 @@
       </div>
     </section>
 
-    <section class="card">
-      <img src="" alt="">
+    <section class="card" data-aos="fade-left">
+      <img src="https://i.ibb.co/5LkJFRP/paint-4.png" alt="">
       <div>
         <h3>Acrylic Painting Four</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio laboriosam vitae exercitationem quasi rem laudantium itaque amet recusandae, molestiae, explicabo ab. Culpa, delectus ipsam excepturi odio soluta ex hic!</p>
@@ -50,8 +51,8 @@
       </div>
     </section>
 
-    <section class="card">
-      <img src="" alt="">
+    <section class="card" data-aos="fade-right">
+      <img src="https://i.ibb.co/61R8Q2y/paint-5.png" alt="">
       <div>
         <h3>Acrylic Painting Five</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio laboriosam vitae exercitationem quasi rem laudantium itaque amet recusandae, molestiae, explicabo ab. Culpa, delectus ipsam excepturi odio soluta ex hic!</p>
@@ -60,6 +61,14 @@
     </section>
 
   </main>
-  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 1000,
+      easing: 'ease-in-out',
+      // mirror: true,
+    });
+  </script>
 </body>
 </html>
